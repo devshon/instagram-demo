@@ -4,7 +4,6 @@ import {
   isBrowser,
   isMobile
 } from "react-device-detect";
-import { Router, Route, Switch } from "react-router";
 
 import './main.css';
 
