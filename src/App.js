@@ -4,20 +4,13 @@ import {
   isBrowser,
   isMobile
 } from "react-device-detect";
-import { Router, Route, Switch } from "react-router";
-
+import { Route } from "react-router";
+import Main from './Main'
 import './main.css';
 
 function App() {
   return (
-    <div>
-      <BrowserView>
-      browser
-      </BrowserView>
-      <MobileView>
-      mobile
-      </MobileView>
-    </div>
+    <Main isBrowser={isBrowser} isMobile={isMobile} />
   );
 }
 
