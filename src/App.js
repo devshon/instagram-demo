@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
+
 import './App.css';
 
 function App() {
+console.log("is browser >>> ",isBrowser)
+console.log("is mobile >>> ",isMobile)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserView>
+      browser
+      </BrowserView>
+      <MobileView>
+      mobile
+      </MobileView>
     </div>
   );
 }
