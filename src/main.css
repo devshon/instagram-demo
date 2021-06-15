@@ -8,6 +8,7 @@
 
 .HeaderLeft {
     margin:5px;
+    padding:8px;
 }
 
 .HeaderLeftLogo {
@@ -33,7 +34,7 @@
 }
 
 .FooterIcon {
-    margin-left: 15px;
+    margin-left: 28px;
     padding-top: 15px;
 }
 
@@ -52,6 +53,7 @@
   overflow: auto;
   overflow-y:hidden;
   padding:5px 0px;
+  border-bottom: 1px solid #cacaca;
 }
 
 .ContentHeaderWrap {
@@ -60,6 +62,14 @@
   padding: 2px;
   height: 54px;
   background: linear-gradient(47deg, #f99b4a, #e2a0a0 30%, #c62e90)
+}
+
+.UnContentHeaderWrap {
+  border-radius:100%;
+  margin:0px 5px;
+  padding: 2px;
+  height: 54px;
+  background: #d8d8d8;
 }
 
 .ContentWrapHeader {
@@ -71,4 +81,38 @@
 .ContenHeaderProfile {
   border-radius: 100%;
   border :2px solid white
+}
+
+.ContentWrapHeaderProfile {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+}
+
+.ContentWrapHeaderProfileUsername {
+  margin-block: auto;
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+.ContentWrapHeaderProfileImg{
+  border-radius: 100%;
+  border: 1px solid rgb(216 216 216);
+}
+
+.ContentContainer {
+  margin-top: 6px;
+}
+
+.ContentHeaderMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentHeaderUsername{
+  font-size: 12px;
+}
+
+.ContentHeaderUsernameWrap{
+  margin:auto
 }

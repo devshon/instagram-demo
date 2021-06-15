@@ -1,5 +1,5 @@
 import React from 'react-router'
-import { BsSearch, BsFillBagFill, BsFillHouseDoorFill, BsPeopleCircle, BsCollectionPlayFill } from "react-icons/bs";
+import { BsFillBagFill, BsFillHouseDoorFill, BsPeopleCircle, BsCollectionPlayFill } from "react-icons/bs";
 import { FaSearch } from 'react-icons/fa'
 function Footer(props) {
 

@@ -1,6 +1,6 @@
 import React from 'react-router'
 import { BsCursorFill, BsPlusSquareFill, BsHeartFill } from "react-icons/bs";
-
+import logo from "../../../src/images/logo/logo.png"
 
 function Header(props) {
 
@@ -9,8 +9,8 @@ function Header(props) {
     <div className="HeaderMain">
       <div className="HeaderLeft">
         <span className="HeaderLeftLogo">
-          Instargram
-      </span>
+          <img src={logo} width="80px" />
+        </span>
       </div>
       <div className="HeaderRight">
         <span className="HeaderRightIcon">
