@@ -45,7 +45,7 @@ function Content(props) {
         </div>
         {users.map((item, index) => {
           return (
-            <div className="ContentHeaderMain">
+            <div className="ContentHeaderMain" key={index}>
               <div className={item.story > 0 ? "ContentHeaderWrap" : "UnContentHeaderWrap"} key={index}>
                 <img className="ContenHeaderProfile" src={item.profile} width="50px" height="50px" />
               </div>
