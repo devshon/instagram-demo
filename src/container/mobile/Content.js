@@ -1,4 +1,4 @@
-import React from 'react-router'
+import React from "react"
 import poster01 from "../../../src/images/posters/01.jpg"
 import poster02 from "../../../src/images/posters/02.jpg"
 import poster03 from "../../../src/images/posters/03.jpg"
