@@ -1,4 +1,5 @@
 import React from "react"
+import { HiDotsHorizontal } from "react-icons/hi";
 import poster01 from "../../../src/images/posters/01.jpg"
 import poster02 from "../../../src/images/posters/02.jpg"
 import poster03 from "../../../src/images/posters/03.jpg"
@@ -69,7 +70,7 @@ function Content(props) {
                     <span>{item.username}</span>
                   </div>
                 </div>
-                <div className="ContenWrapHeaderInfo">info</div>
+                <div className="ContenWrapHeaderInfo" style={{alignSelf:'center',marginRight:"15px"}}><HiDotsHorizontal/></div>
               </div>
               <div>
                 <img src={item.poster} width="375px" height="350px" />
